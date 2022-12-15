@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { FeaturesModule } from './features/features.module';
 import { MenuComponent } from './shared/menu/menu.component';
 import { SharedModule } from './shared/shared.module';
+import { ModalModule } from 'ngx-bootstrap/modal';
+
 
 @NgModule({
   declarations: [
@@ -18,6 +20,7 @@ import { SharedModule } from './shared/shared.module';
     BrowserModule,
     FeaturesModule,
     SharedModule,
+    ModalModule
     
   ],
   providers: [],

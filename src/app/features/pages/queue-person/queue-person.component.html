@@ -2,11 +2,11 @@
 
     <div class="row">
         <div class="col title">
-            <h1>Lista de colas <i class="fa-solid fa-thumbtack"></i></h1>
+            <h1>Lista de Personas/Colas <i class="fa-solid fa-thumbtack"></i></h1>
         </div>
         <div class="col">
             <div class="button">
-                <button>Agregar   <i class="fa-solid fa-plus"></i> </button>
+                <button>Agregar <i class="fa-solid fa-plus"></i> </button>
             </div>
         </div>
     </div>
@@ -16,9 +16,11 @@
         <thead style="background:orange; color:white">
             <tr>
                 <th scope="col">#</th>
-                <th scope="col">Nombre</th>
-                <th scope="col">Apellido</th>
-                <th scope="col">Edad</th>
+                <th scope="col">Nombre Cola</th>
+                <th scope="col">Nombre Persona</th>
+                <th scope="col">Status</th>
+                <th>Condicion</th>
+                <th>Acciones</th>
             </tr>
         </thead>
         <tbody>
@@ -27,7 +29,15 @@
                 <td>Mark</td>
                 <td>Otto</td>
                 <td>@mdo</td>
+                <td>@mdo</td>
+                <td>
+                    <i class="fa-solid fa-pen-to-square" style="color:green"
+                    routerLink="/dashboard/editNews/edit-news"></i>
+                <i class="fa-solid fa-trash" style="color:red"></i>
+                </td>
             </tr>
         </tbody>
     </table>
+
+   
 </div>

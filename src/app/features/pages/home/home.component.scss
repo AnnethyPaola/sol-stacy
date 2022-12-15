@@ -11,8 +11,22 @@
     margin: 10px;
 }
 
-.bloque{
-    background-color:red;
-    color: white;
-    border: 2px solid black;
+.card{
+    padding: 20px;
+
+    .card-title{
+        font-size: 30px;
+        font-weight: 900;
+    }
+
+    i{
+        padding: 20px;
+        font-size: 50px;
+        color:orange;
+    }
+
+    p{
+        padding: 20px;
+        font-size: 30px;
+    }
 }
