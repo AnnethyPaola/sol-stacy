@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import {MatDialog} from '@angular/material/dialog';
+
+
 
 @Component({
   selector: 'app-queue-person',
@@ -6,11 +9,19 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./queue-person.component.scss']
 })
 export class QueuePersonComponent implements OnInit {
-  
 
-  constructor() { }
+  formModal: any;
+
+  constructor(
+    public dialog: MatDialog
+  ) { }
+
+
 
   ngOnInit(): void {
+    
+    
+    
   }
 
 }
